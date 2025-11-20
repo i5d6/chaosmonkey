@@ -1,6 +1,6 @@
 module github.com/Netflix/chaosmonkey/v2
 
-go 1.19
+go 1.24.0
 
 require (
 	github.com/SmartThingsOSS/frigga-go v0.0.0-20180827230714-55b2c36db3e7
@@ -11,7 +11,7 @@ require (
 	github.com/rubenv/sql-migrate v0.0.0-20160620083229-6f4757563362
 	github.com/spf13/pflag v0.0.0-20160915153101-c7e63cf4530b
 	github.com/spf13/viper v0.0.0-20160926150402-382f87b929b8
-	golang.org/x/crypto v0.35.0
+	golang.org/x/crypto v0.45.0
 )
 
 require (
@@ -30,8 +30,8 @@ require (
 	github.com/spf13/jwalterweatherman v0.0.0-20160311093646-33c24e77fb80 // indirect
 	github.com/stretchr/testify v1.8.1 // indirect
 	github.com/ziutek/mymysql v1.5.4 // indirect
-	golang.org/x/sys v0.30.0 // indirect
-	golang.org/x/text v0.22.0 // indirect
+	golang.org/x/sys v0.38.0 // indirect
+	golang.org/x/text v0.31.0 // indirect
 	gopkg.in/check.v1 v1.0.0-20201130134442-10cb98267c6c // indirect
 	gopkg.in/gorp.v1 v1.7.1 // indirect
 	gopkg.in/yaml.v2 v2.2.8 // indirect
